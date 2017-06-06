@@ -1,6 +1,6 @@
 <?php
 
-  mysql_connect("localhost", "root", "moreira93"); //can test return value for true or false to check conn
+  mysql_connect("localhost", "root", "password"); //can test return value for true or false to check conn
   
   mysql_select_db("nyse");
 

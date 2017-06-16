@@ -7,7 +7,7 @@ Uses Bash script, Python, PHP and MySQL to extract data from NYSE and elegantly 
 2.DOM manipulation to extract relevant data from the downloaded pages and injects data into MySQL database.
 
 
-3.PHP script retrives all the data from the MySQL database and presents it using APACHE web server. Presented tables are clickable and sortable.
+3.PHP script retrieves all the data from the MySQL database and presents it using APACHE web server. Presented tables are clickable and sortable.
 
 
 

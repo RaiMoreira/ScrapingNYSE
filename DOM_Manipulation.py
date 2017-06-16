@@ -87,7 +87,7 @@ def extract_values(dm):
 
 # mysql> describe most_active;
 def insert_to_db(l,tbl):
-   db = MySQLdb.connect(host = "localhost", user="root", passwd="moreira93", db="nyse")
+   db = MySQLdb.connect(host = "localhost", user="root", passwd="password", db="nyse")
    handle = db.cursor()
    handle.execute("CREATE TABLE IF NOT EXISTS " + tbl + " (symbol varchar(10), name  varchar(80), volume integer, price float, chng float, pchng float)")
 
